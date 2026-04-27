@@ -123,6 +123,8 @@ END
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="641" height="437" alt="WhatsApp Image 2026-04-20 at 2 17 53 PM" src="https://github.com/user-attachments/assets/77392594-f304-4e79-abfe-c3ad216d2745" />
+
 
 ## 3. MULTIPLICATION
 
