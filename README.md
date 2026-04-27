@@ -56,17 +56,18 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       1200🔢       01         12
-
-|         1200                    |
+|                         |  1200        68          |
+|                         |  1201        24          | 
 
 #### Manual Calculations
+
 
 (Add your calculation here)
 
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+
 
 ## 2. SUBTRACTION
 
@@ -109,7 +110,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|                         |    1200        0F        | 
+|                         |    1201        53        | 
 
 #### Manual Calculations
 
@@ -158,7 +160,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|                         |     1200         14      |
+|                         |     1201         08      |
 
 #### Manual Calculations
 
@@ -203,7 +206,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|                         |      1200       03       |
+|                         |      1201       15       |
 
 #### Manual Calculations
 
