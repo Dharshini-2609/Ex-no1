@@ -218,6 +218,9 @@ END
 
 
 
+<img width="649" height="432" alt="WhatsApp Image 2026-04-21 at 11 49 39 AM" src="https://github.com/user-attachments/assets/8e3138bf-6c8a-4e7b-a0ce-0affc4619fa2" />
+
+
 ## RESULT
 
 Thus, the Assembly Language Programs for 8086 to perform arithmetic operations (Addition, Subtraction, Multiplication, and Division) using both direct and indirect methods were successfully written and executed using MASM.
