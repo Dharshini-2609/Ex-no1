@@ -171,6 +171,8 @@ END
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 
+<img width="654" height="437" alt="WhatsApp Image 2026-04-20 at 2 43 43 PM" src="https://github.com/user-attachments/assets/f182d1b1-2cd9-4f39-bc91-6a7f195188d9" />
+
 ## 4. DIVISION
 
 #### Algorithm
