@@ -67,6 +67,8 @@ END
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="664" height="436" alt="WhatsApp Image 2026-04-22 at 1 57 36 PM" src="https://github.com/user-attachments/assets/a53c0acf-1514-4c7d-998f-0d54092ac146" />
+
 
 
 ## 2. SUBTRACTION
