@@ -56,17 +56,17 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       1200🔢       01         12
-
-|         1200                    |
+|                         |   1200       68          |
+|                         |   1201       24          |
 
 #### Manual Calculations
 
-(Add your calculation here)
+<img width="1280" height="855" alt="WhatsApp Image 2026-04-29 at 8 58 42 PM" src="https://github.com/user-attachments/assets/c3c757c0-fe7c-4cfa-9008-9571bc1016c1" />
 
----
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="664" height="436" alt="WhatsApp Image 2026-04-22 at 1 57 36 PM" src="https://github.com/user-attachments/assets/1a98376b-a8fb-4775-8efc-cf15e3aaea91" />
+
 
 ## 2. SUBTRACTION
 
