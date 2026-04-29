@@ -56,17 +56,17 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       1200🔢       01         12
-
-|         1200                    |
+|                         |   1200       68          |
+|                         |   1201       24          |
 
 #### Manual Calculations
 
-(Add your calculation here)
+<img width="1280" height="855" alt="WhatsApp Image 2026-04-29 at 8 58 42 PM" src="https://github.com/user-attachments/assets/1e7796fa-5f45-44f2-a6b1-d144d24f6c52" />
 
----
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="664" height="436" alt="WhatsApp Image 2026-04-22 at 1 57 36 PM" src="https://github.com/user-attachments/assets/adcae721-b97d-4462-9013-94102ca9fe1b" />
+
 
 ## 2. SUBTRACTION
 
@@ -85,19 +85,18 @@ END
 
 #### Program
 ```asm
-CODE SEGMENT
-ASSUME CS: CODE, DS: CODE
+CODE SEGMENT 
+ASSUME CS:CODE,DS:CODE
 ORG 1000H
-MOV SI,2000H
 MOV CL,00H
-MOV AX,[SI]
-MOV BX,[SI+02H]
+MOV AX,6543H
+MOV BX,1234H
 SUB AX,BX
 JNC L1
 INC CL
-L1:
-MOV [SI+04H],AX
-MOV [SI+06H],CL
+L1:MOV SI,1200H
+MOV[SI],AX
+MOV[SI+2],AX
 MOV AH,4CH
 INT 21H
 CODE ENDS
@@ -109,16 +108,16 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
-
+|                         |    1200        0F        |             
+|                         |    1201        53        |
+ 
 #### Manual Calculations
-
-(Add your calculation here)
-
----
+<img width="1280" height="638" alt="WhatsApp Image 2026-04-29 at 8 58 20 PM" src="https://github.com/user-attachments/assets/29418080-3863-40cc-97c0-fe986313f021" />
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="641" height="437" alt="WhatsApp Image 2026-04-20 at 2 17 53 PM" src="https://github.com/user-attachments/assets/bf948181-c07a-47f7-8ba1-b23dc2c80b5e" />
+
 
 ## 3. MULTIPLICATION
 
@@ -139,15 +138,15 @@ END
 
 ```asm
 CODE SEGMENT
-ASSUME CS: CODE, DS: CODE
+ASSUME CS:CODE,DS:CODE
 ORG 1000H
-MOV SI,2000H
 MOV DX,0000H
-MOV AX,[SI]
-MOV BX,[SI+02H]
-MUL BX
-MOV [SI+04H],AX
-MOV [SI+06H],DX
+MOV AL,2CH
+MOV BL,2FH
+MUL BL
+MOV SI,1200H
+MOV[SI],AX
+MOV[SI+02H],DX
 MOV AH,4CH
 INT 21H
 CODE ENDS
@@ -158,15 +157,16 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|                         |    1200        11        |                      
+|                         |    1201        02        |
 
 #### Manual Calculations
+<img width="1202" height="1040" alt="WhatsApp Image 2026-04-29 at 8 59 07 PM" src="https://github.com/user-attachments/assets/a83a17d1-4d0c-45ab-8021-9e45591e46f4" />
 
-(Add your calculation here)
-
----
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="640" height="435" alt="WhatsApp Image 2026-04-20 at 2 40 45 PM" src="https://github.com/user-attachments/assets/8a7a1373-6a32-426c-80f3-8c43eeb1f15c" />
+
 
 ## 4. DIVISION
 
@@ -184,15 +184,16 @@ END
 
 ```asm
 CODE SEGMENT
-ASSUME CS: CODE, DS: CODE
+ASSUME CS:CODE,DS:CODE
 ORG 1000H
-MOV SI,2000H
 MOV DX,0000H
-MOV AX,[SI]
-MOV BX,[SI+02H]
-DIV BX
-MOV [SI+04H],AX
-MOV [SI+06H],DX
+MOV AX,123H
+MOV CH,34H
+MOV BL,CH
+DIV BL
+MOV SI,1200H
+MOV[SI],AX
+MOV[SI+02H],DX
 MOV AH,4CH
 INT 21H
 CODE ENDS
@@ -203,14 +204,15 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|                         |    1200      05          |            
+|                         |    1201      1F          |
 
 #### Manual Calculations
+<img width="1097" height="1040" alt="WhatsApp Image 2026-04-29 at 8 59 38 PM" src="https://github.com/user-attachments/assets/2ac3525b-77f8-4138-91f4-3308a135bb14" />
 
-(Add your calculation here)
 
----
 ## OUTPUT FROM MASM SOFTWARE
+<img width="653" height="443" alt="WhatsApp Image 2026-04-28 at 11 43 08 AM" src="https://github.com/user-attachments/assets/f3ed6e74-200f-4afb-bb3a-84c3721c453e" />
 
 
 
